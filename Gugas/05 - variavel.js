@@ -5,9 +5,9 @@
 /*
 
 No javascript temos 3 palavras chaves para declarar variaveis
--> var
--> let
--> const
+-> var - funciona em todo escpo
+-> let - funciona no escopo defenido
+-> const - nunca pode ser alterado
 */
 
 var a = 2;

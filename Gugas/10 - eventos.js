@@ -16,3 +16,7 @@ function onMouseOut(){
 function onFocus(){
     document.getElementById("input_text").value = "";
 }
+
+function onChange(){
+    console.log("mudou")
+}

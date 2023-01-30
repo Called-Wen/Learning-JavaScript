@@ -31,3 +31,9 @@ d = "2"
 equal = (c === d);
 console.log(equal);
 
+
+// Operaador Ternario
+var idade, eleitor;
+idade = 18;
+eleitor = (idade < 18) ? false : true;
+console.log("Eleitor: " + eleitor)

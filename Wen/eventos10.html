@@ -6,10 +6,24 @@
     <meta name="author" content="Called-Wen">
     <title>aula09</title>
 </head>
-<body>
+<body onload="inicio" onresize="redimensionou" style="width: 100%;">
     <h1 style="text-align: center;">Learning <strong>JS</strong></h1>
 
     <p id="texto"></p>
+
+    <button onclick="eventoClick" onblur="eventoBlur" onkeypress="teclaPressionada">Clique Aqui</button> <br><br><br><br>
+    <button ondblclick="eventoDblClick">Dois Cliques Aqui</button> <br><br><br>
+
+    <select onchange="mudou()" name="" id="itens">
+        <option value="1">valor</option>
+        <option value="2">valor</option>
+        <option value="3">valor</option>
+    </select>
+
+    <div id="teste" onmouseover="mudaCor" onmouseout="mudaCorOrg" style="margin: auto auto; width: 80%; height: 200px; background: black;"></div> <br><br><br>
+
+    <input onfocus="limpaTexto()" id="campoTexto" style="padding: 80px; font-size: 40px;" type="text" placeholder="Digite Algo">
+
     
 </body>
 </html>

@@ -12,6 +12,7 @@ function verificar() {
 
 function verificarCor() {
     let corval = document.getElementById("cor").value;
+    corval = corval.toLowerCase();
     let color = document.getElementById("cor")
     let p = document.getElementById("texto");
     switch (corval) {

@@ -2,19 +2,19 @@
 
 
 const carro = {
-    marca : "Fiat",
+    marca: "Fiat",
     modelo: "uno",
     ano: 2002
 }
 
 
-class Carro{
-    constructor(marca,modelo,ano){
+class Carro {
+    constructor(marca, modelo, ano) {
         this.marca = marca;
         this.modelo = modelo;
-        this.ano =ano;
+        this.ano = ano;
     }
 }
 
-const uno = new Carro("Fiat","Uno",2009);
+const uno = new Carro("Fiat", "Uno", 2009);
 console.log(uno);
